@@ -42,3 +42,8 @@ git push -u origin feature/2
 
 ## Состояние локальной ветки и удаленной
 git status
+
+## 
+git checkout main
+git merge feature/1 -m "Merge feature/1 into main"
+git push -u origin main
