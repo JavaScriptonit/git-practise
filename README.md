@@ -25,3 +25,8 @@ git commit -m "update lessons 4-6 readme"
 git push -u origin main
 git push -u origin feature/2
 git push -u origin feature/1
+
+# 
+git status
+
+# 
