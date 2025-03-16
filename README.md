@@ -5,9 +5,9 @@ https://habr.com/ru/articles/432420/
 # Команды для DEBUG:
 
 ## Проверка состояния веток (Показать лог конкретной ветки)
-git log --oneline --graph main
-git log --oneline --graph feature/2
-git log --oneline --graph feature/1
+git log --oneline --graph main | less
+git log --oneline --graph feature/2 | less
+git log --oneline --graph feature/1 | less
 
 ## Посмотреть список всех веток (все локальные и удаленные ветки)
 git branch -a
