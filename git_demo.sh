@@ -36,7 +36,7 @@ cd /Users/andreyshabunov/PhpstormProjects/git-practics
 echo "Creating bugfix/1 branch..."
 git checkout -b bugfix/1
 git checkout bugfix/1
-for i in {20..21}; do
+for i in {22..23}; do
   cd /Users/andreyshabunov/PhpstormProjects/git-practics/bugfix1/
   echo "Bug fix commit $i" > bugfix1_$i.txt
   cd /Users/andreyshabunov/PhpstormProjects/git-practics/
@@ -58,5 +58,5 @@ git push -u origin main
 # git rebase main
 
 # Итоговое состояние репозитория
-# echo "Final state of the repository:"
-# git log --oneline --graph --all
+echo "Final state of the repository:"
+git log --oneline --graph --all | less
