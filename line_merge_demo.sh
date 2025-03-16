@@ -36,7 +36,7 @@ cd /Users/andreyshabunov/PhpstormProjects/git-practics
 echo "Creating bugfix/1 branch..."
 git checkout -b bugfix/1
 git checkout bugfix/1
-for i in {24..25}; do
+for i in {30..31}; do
   cd /Users/andreyshabunov/PhpstormProjects/git-practics/bugfix1/
   echo "Bug fix commit $i" > bugfix1_$i.txt
   cd /Users/andreyshabunov/PhpstormProjects/git-practics/
