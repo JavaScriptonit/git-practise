@@ -36,11 +36,13 @@ cd /Users/andreyshabunov/PhpstormProjects/git-practics
 echo "Creating bugfix/1 branch..."
 git checkout -b bugfix/1
 git checkout bugfix/1
-for i in {11..15}; do
+for i in {16..20}; do
+  cd /Users/andreyshabunov/PhpstormProjects/git-practics/bugfix1/
   echo "Bug fix commit $i" > bugfix1_$i.txt
   git add bugfix1_$i.txt
   git commit -m "Bug fix commit $i"
   git push -u origin bugfix/1
+  cd /Users/andreyshabunov/PhpstormProjects/git-practics/
 done
 
 # Возвращаемся к main и выполняем merge bugfix/1
