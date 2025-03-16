@@ -35,7 +35,8 @@ cd /Users/andreyshabunov/PhpstormProjects/git-practics
 # Создание bugfix/1 с 5 коммитами
 echo "Creating bugfix/1 branch..."
 git checkout -b bugfix/1
-for i in {1..5}; do
+git checkout bugfix/1
+for i in {6..10}; do
   echo "Bug fix commit $i" > bugfix1_$i.txt
   git add bugfix1_$i.txt
   git commit -m "Bug fix commit $i"
